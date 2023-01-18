@@ -18,7 +18,7 @@ class Calculator(QWidget):
         self.btn1.clicked.connect(self.activateMessage)
 
         self.btn2=QPushbutton('Clear',self) # 버튼 2: 내역 지우기
-        self.btn2.clicked.connet(se;f/clearMessage)
+        self.btn2.clicked.connet(self.clearMessage)
 
         hbox=QHBoxLayout() # 수평박스 레이아웃을 추가하고 버튼 1, 2 추가
         hbox.addStretch(1) # 공백
