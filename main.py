@@ -27,7 +27,7 @@ class Calculator(QWidget):
 
         vbox=QVBoxLayout()
         vbox.addWidget(self.te1)
-        #vbox.addWidget(self.btn1)
+        # vbox.addWidget(self.btn1)
         vbox.addLayout(hbox) # btn1 위치에 hbox를 배치
         vbox.addStretch(1)
 
